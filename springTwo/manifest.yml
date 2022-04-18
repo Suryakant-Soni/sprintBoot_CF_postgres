@@ -1,0 +1,11 @@
+---
+applications:
+- name: springTwo
+  random-route: true
+  path: /target/springTwo-0.0.1-SNAPSHOT.war
+  buildpacks:
+  - java_buildpack
+  services:
+  - mysql
+    
+  
